@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="/style.css")
+
+        title #{title}
+    body
+        include banner.pug
+
+
+            form
+
+    .form-group 
+        input(type='text' placeholder='full name')
+
+    .form-group
+        input(type='email' placeholder='name@example.com')
+
+    .form-group
+        textarea( type='text' placeholder='type your message here') 
+
+        .btn-check-submit
+        button(type='submit') submit
+        
